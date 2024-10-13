@@ -33,7 +33,7 @@
                     android:id="@+id/timeText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/dateText"
+                    android:layout_alignParentRight="true"
                     android:fontFamily="@font/manrope"
                     android:text="Time: --"
                     android:textSize="15sp" />
@@ -53,6 +53,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="City"
+                    android:textStyle="bold"
                     android:fontFamily="@font/manrope"
                     android:textSize="27sp" />
                 <TextView
@@ -82,7 +83,7 @@
                             android:fontFamily="@font/manrope"
                             android:textStyle="bold"
                             android:text="-- °C"
-                            android:textSize="50sp" />
+                            android:textSize="55sp" />
 
                         <TextView
                             android:id="@+id/tempF"
@@ -90,7 +91,7 @@
                             android:layout_height="wrap_content"
                             android:text="-- °F"
                             android:fontFamily="@font/manrope"
-                            android:textSize="15sp" />
+                            android:textSize="18sp" />
                     </LinearLayout>
                     <ImageView
                         android:id="@+id/image_view_weather_icon"
