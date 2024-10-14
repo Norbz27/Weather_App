@@ -47,7 +47,7 @@ public class WeatherViewModel extends ViewModel {
 
     public void fetchWeather(double lat, double lon) {
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://api.openweathermap.org/data/2.5/")  // Base URL
+                .baseUrl("https://api.openweathermap.org/data/2.5/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
